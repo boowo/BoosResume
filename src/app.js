@@ -1,5 +1,9 @@
 /**
  * Created by wangbo on 17/12/4.
  */
-console.log("success");
-document.write('我');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Hello from './components/component'
+
+var oDiv = document.querySelector("#app");
+ReactDOM.render(<Hello />, oDiv);

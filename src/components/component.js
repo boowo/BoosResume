@@ -2,8 +2,16 @@
  * Created by wangbo on 17/12/4.
  */
 import React from 'react'
-class Component extends React.Component{
+import './base.less'
+import './hello.less'
+class Hello extends React.Component{
+    constructor(props){
+        super(props);
+    }
+
     render(){
-        return <div>Helllo World</div>
+        return <div className="hello">Helllo World</div>
     }
 }
+
+export default Hello;
